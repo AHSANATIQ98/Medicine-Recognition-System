@@ -12,7 +12,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Load models
 vis_model = genai.GenerativeModel('gemini-1.5-flash')  # Vision model
-text_model = genai.GenerativeModel('gemini-pro')  # Text model
+text_model = genai.GenerativeModel('gemini-1.5-flash')  # Text model
 
 app = Flask(__name__)
 
