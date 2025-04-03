@@ -9,7 +9,7 @@ load_dotenv()
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))# Configure Google Generative AI
 
-vis_model = genai.GenerativeModel('gemini-pro-vision') # Loaded the Pro-Vision model
+vis_model = genai.GenerativeModel('gemini-1.5-flash') # Loaded the Pro-Vision model
 
 text_model = genai.GenerativeModel('gemini-pro') # Loaded the Pro model
 
